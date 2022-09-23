@@ -47,6 +47,7 @@ To initialize a remote repository, you can use ui controls.
   - `git merge`: Apply changes to the local repository.
 
 ## Branches
+![Branching](https://wac-cdn.atlassian.com/dam/jcr:389059a7-214c-46a3-bc52-7781b4730301/hero.svg?cdnVersion=542)
 - A branch is a line of development.
 - `git branch` or `git branch --list`: : Show current branch
 - `git branch branch-name`: Create branch named branch-name
@@ -69,6 +70,8 @@ It's worth noting that conflicts waste a lot of time, and can bring a lot of err
 
 
 ## Branching Policy
+![Branches](https://wac-cdn.atlassian.com/dam/jcr:c6db91c1-1343-4d45-8c93-bdba910b9506/02%20Branch-1%20kopiera.png?cdnVersion=542)
+
 - How do we create our branches and how do we name them?
 - Branch names need to be descriptive of what is supposed to be done. E.g adding-api-users
 - Git repositories are created with a default branch. This branch is commonly called `master` or `main`.
@@ -84,6 +87,9 @@ A good branching policy helps improve issue traceability and prevents conflicts.
 
 
 # Bonus
+## Issues
+- Most of the software planning is done outside the branches. For this,w e use issue tracking solutions such as Jira, Bitbucket issues and Github issues.
+- Here is where discussions happen.
 ## Commit Messages
 - When messaging your commits, please use descriptive names. A commit message should explain what you've done, not what you expected to do or what you wanted to achieve. Be direct.
 - Also, consider using multiline messages.
