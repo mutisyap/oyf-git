@@ -6,15 +6,19 @@ By Peter Mutisya
    - Compiled vs interpreted languages
      - Understand which languages need to be compiled and which one don't need to.
    - Understand what will be running:
-     - We code on .java files, but we will run jar files. 
-     - We code on .c or .cpp files but we will deploy .exe files.
+     - We code on .java files, but we may want to run jar files.
+       - Check different between Jar and war files.
+     - We code on .c or .cpp files but you may want to deploy .exe files.
    - Software packaging: The process of building an installer that includes application resources to be used to distribute to distribute.
      - Packaging in Java Maven (.jar, war)
-     - Packaging Angular (ng build)
-     - Packaging in React (npm build)
      - Packaging for Windows (.exe)
      - Packaging for Debian Linux (.deb)
      - Packaging for Android (.apk)
+   - Building and recompiling software: Here, we code in a non-compliant way, then we have to change it back to a compliant way. This is very common with frameworks.
+    - Building Angular (ng build): Build to Html, CSS and JS files
+    - Building React (npm build) : Build to Html, CSS and JS files
+    - Recompiling Typescript to JavaScript
+    - Building PHP Laravel: Back to PHP compliant files.
    - Resources:
      - https://www.advancedinstaller.com/what-is-software-packaging.html
      - https://www.baeldung.com/cs/compiled-vs-interpreted-languages
@@ -23,6 +27,7 @@ By Peter Mutisya
 2. How to run web applications (Applications accessible on the internet)
    - What is a server
    - Understanding VMs
+   - Understand embedded servers.
    - Setting up runtime dependencies
      - Java: 
        - Install open jdk
@@ -33,6 +38,8 @@ By Peter Mutisya
      - Nginx:  /usr/share/nginx/html
    - Understanding configurations: What is it that can change when running the application in different environments.
    - Resources:
+     - https://www.springboottutorial.com/java-programmer-essentials-what-is-an-embedded-server
+     - https://realtimelogic.com/articles/What-is-an-Embedded-Application-Server
      - https://nginx.org/en/
      - https://httpd.apache.org/
      - https://kinsta.com/knowledgebase/what-is-nginx/
@@ -79,7 +86,12 @@ By Peter Mutisya
      - Run basic kubernetes commands
      - Deploy a service there
    - Kubernetes on the cloud
-     - An update will be issue
+     - Places where you can start your free cluster:
+       - https://labs.play-with-k8s.com/
+       - https://labs.play-with-k8s.com/
+       - https://training.play-with-kubernetes.com/
+     - Natujenge official cluster:
+       - This will be provided to you during the week.
    - Resources:
      - https://kubernetes.io/docs/setup/
      - https://medium.com/swlh/local-cluster-vs-remote-cluster-for-kubernetes-based-development-6efe2d9be202
